@@ -30,7 +30,7 @@ main {
   height: 450px;
   background-color: white;
 }
-.card h2 {
+.card h1 {
   text-align: center;
   padding-top: 100px;
   font-weight: 700;
