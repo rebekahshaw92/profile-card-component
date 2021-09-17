@@ -112,8 +112,17 @@ main {
   position: relative;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 340px;
   border-top: 1px solid #e3e3e3;
+}
+@media (max-width: 1440px) {
+  .stats {
+    width: 340px;
+  }
+}
+@media (max-width: 375px) {
+  .stats {
+    width: 284px;
+  }
 }
 
 .stat {

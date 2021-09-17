@@ -115,8 +115,13 @@ main {
    position: relative;
    flex-direction: row;
   justify-content: space-evenly;
-   width: 340px;
    border-top: 1px solid hsl(0, 0%, 89%);
+   @media (max-width: $desktop) {
+    width: 340px;
+   }
+   @media (max-width: $mobile) {
+       width: 284px;
+   }
 }
 
 .stat {
