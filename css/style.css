@@ -35,7 +35,7 @@ main {
   padding-top: 100px;
   font-weight: 700;
 }
-@media (max-width: 1440px) {
+@media (min-width: 1440px) {
   .card {
     font-size: 20px;
     margin-top: 50px;
