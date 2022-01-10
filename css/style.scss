@@ -45,6 +45,7 @@ main {
     }
     @media (min-width: $desktop) {
        font-size: 20px;
+        width: 344px;
        margin-top: 50px;
     }
     @media (max-width: $mobile) {
